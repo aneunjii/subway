@@ -196,7 +196,6 @@ def make_network_map_html():
 subway_loc, dijkstra, edges, stations = load_data()
 
 st.title("🚇 지하철 최단경로 찾기")
-st.caption("다익스트라(Dijkstra) 알고리즘으로 서울 지하철 1~4호선의 최소 소요시간 경로를 찾아요.")
 
 # ---- 사이드바: 출발역 / 도착역 선택 ----
 with st.sidebar:
